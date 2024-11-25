@@ -21,6 +21,13 @@ header{
       text-decoration: none;
       color: white;
       padding: .5rem;
+      &.active{
+        text-decoration: underline;
+        color: blue;
+      }
     }
   }
+}
+main{
+  min-height: calc(100vh - 80px);
 }
